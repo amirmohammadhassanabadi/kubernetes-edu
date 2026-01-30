@@ -1,0 +1,9 @@
+apiVersion: apps/v1
+kind: Service
+spec:
+  name: cluster-service
+spec:
+  type: ClusterIP
+  ports:
+    port: 80
+    targetPort: 80
